@@ -1,0 +1,110 @@
+:root{
+    --main_color: #446a42;
+    --sec_color: #d7ce9e;
+    --sec_color2: #381b00;
+}
+
+body{
+    background-color: var(--main_color);
+    color: var(--sec_color2);
+    text-align: center;
+}
+
+h1{
+    padding: 2vh;
+    background-color: var(--sec_color);
+    margin: 5vh 15vw;
+}
+
+hr{
+    border:var(--main_color) solid .1vh;
+    margin: 2vh;
+}
+
+img{
+    margin: 5vw;
+    max-width: 80%;
+}
+
+nav{    
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+
+    padding: 2vh;
+    border: var(--main_color) solid 5px;
+}   .nav_bar{
+        background-color: var(--sec_color);
+    }.nav_item{
+        background-color: var(--sec_color);
+        color: var(--sec_color2);
+        
+        padding: .8vw;
+        border: var(--sec_color2) solid 2px;
+        margin:.5vh;
+        
+        font-size: 140%;
+        font-weight: bold;
+    }.nav_item:hover{    
+        color: var(--sec_color);
+        background-color: var(--sec_color2);
+        text-decoration: none;
+    }
+
+ul{
+    margin-right:5vh;
+    list-style-type: none;
+}
+
+.margin_color{
+    background-color: var(--main_color);
+}
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin:2vw;
+    padding: 1vh;
+}   .big_box{
+        background-color: var(--sec_color);
+        width: 75%;
+
+        padding: 1vh;
+        margin:2vw;
+    }.small_box{
+        background-color: var(--sec_color);
+        width: 22%;
+
+        padding:5vh 3vw;
+        margin:2vw;
+    }.box_title{
+        font-size: 120%;
+        font-weight: bold;
+        background-color: var(--main_color);
+        color: var(--sec_color);
+        
+        padding:1vw;
+        border: var(--sec_color) solid 3px;
+
+        margin:10vh 0vw;
+        padding: 1vh;
+
+        white-space: nowrap;
+    }
+
+.dummy:hover{    
+        color: var(--sec_color);
+        background-color: var(--sec_color2);
+        text-decoration: underline;
+        padding: 1vw;
+    }
+
+.welcome{
+    background-color: var(--sec_color);
+    margin: 5vh 5vw;
+}
